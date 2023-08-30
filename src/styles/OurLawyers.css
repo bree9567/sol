@@ -1,0 +1,97 @@
+
+
+/*marissa screen*/
+@media (min-width: 1080px) {
+  .center-images-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  border-style: solid;
+
+}
+
+
+
+.lawyer_images{
+    width: 800px;
+    margin: 10px;
+}
+/* ImageWithButton.css */
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container is sized according to its content */
+}
+
+
+
+
+
+/* Default styles for larger screens */
+.center-images-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  border-style: solid;
+}
+
+.bio {
+  width: 100%;
+ 
+  margin:20px
+
+  /* Add padding, margin, or other styles as needed */
+}
+
+.lawyer_images {
+  width: 800px;
+  margin: 10px;
+}
+
+/* ImageWithButton.css */
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensures the container is sized according to its content */
+}
+
+.image-button {
+  position: absolute;
+  top: 50%; /* Adjust the top position to your preference */
+  left: 50%; /* Adjust the left position to your preference */
+  transform: translate(-50%, -50%); /* Center the button within the container */
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  /* Adjust the margin and width as needed for mobile */
+  margin-top: 230px; /* Reduced margin for mobile */
+  width: 20%; /* Make the button take full width on mobile */
+}}
+
+
+
+/*sol screen*/
+
+@media (min-width: 1600px) {
+  .center-images-container {
+  display: flex;
+  justify-content:flex; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  border-style: solid;
+
+}
+     .image-button {
+    margin-top: 20px; /* Adjust margin for spacing on small screens */
+  }
+  .writing{
+    font-size: larger;
+    
+    width:100%
+   
+  }
+  .bio{
+
+    width:100%
+  }
+}
+  

@@ -1,0 +1,128 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Source+Code+Pro:wght@800&display=swap');
+/* Add this to your CSS file (e.g., HomeScreen.css) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Source+Code+Pro:wght@800&family=Wavefont:wght@600&display=swap');
+
+/* navbar.css */
+
+
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+.ul-list {
+  margin-left: 100px;
+
+  width: 900px;
+  margin-top: -40px; /* Adjust this value to move the list higher or lower */
+}
+
+/* Style the "address" element */
+.address {
+  text-align: right; /* Align text to the right */
+}
+
+/* Add a class for the right corner positioning */
+
+
+.addressfont{
+    font-size:large;
+}
+.ul-list{
+    
+    margin-left: 100px;
+  
+    width: 900px;
+    margin-top: 10px;
+    
+   
+}
+/* Default styles for larger screens */
+.navbar {
+ 
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  font-size: larger;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+.address {
+  text-align: right;
+}
+
+.right-corner {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.addressfont {
+  font-size: small;
+}
+
+
+/* Mobile-friendly styles using a media query */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center; /* Center-align text on small screens */
+    padding: 10px; /* Adjust padding for spacing on small screens */
+  }
+
+  .navbar a {
+    font-size: larger; /* Adjust font size as needed for readability */
+    margin-top: 10px; /* Add spacing between links on small screens */
+  }
+
+  ul {
+    justify-content: center; /* Center-align the list of links on small screens */
+  }
+
+  ul li {
+    margin: 10px 0; /* Adjust margin for spacing between list items on small screens */
+  }
+
+  .right-corner {
+    position: static; /* Remove absolute positioning on small screens */
+    margin-top: 10px; /* Add spacing below the navbar on small screens */
+  }
+}
+/* Default link style */
+.navbar ul li a {
+  text-decoration: none; /* Remove underlines for all links */
+  color: white; /* Link text color */
+  font-size: larger;
+  font-family: 'Roboto';
+}
+
+/* Active link style with underline */
+.navbar ul li a.active {
+  text-decoration: underline; /* Add underline for active link */
+  font-weight: bold; /* Optionally, make the active link bold */
+}

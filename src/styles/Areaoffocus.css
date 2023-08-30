@@ -1,0 +1,36 @@
+/* Default styles for larger screens */
+.image-container {
+  display: flex;
+  justify-content: space-between; /* Display images in a row on larger screens */
+  flex-wrap: wrap; /* Allow images to wrap to the next row if necessary */
+}
+
+/* Style each image container */
+.image-container > div {
+  flex-basis: calc(33.33% - 20px); /* Adjust the width to 33.33% with margin */
+  margin: 10px; /* Add margin between image containers */
+  text-align: center; /* Center-align content */
+  margin-top: 100px;
+}
+
+/* Adjust styles for mobile screens using a media query */
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Display images in a column on mobile screens */
+  }
+
+  /* Reset the width and margin for mobile images */
+  .image-container > div {
+    flex-basis: 100%; /* Full width for mobile */
+    margin: 0; /* Remove margin on mobile */
+  }
+}
+.construction-image{
+    width:200px
+}
+.autoaccident-image{
+    width:200px
+}
+.wrongfuldeath-image{
+    width:200px
+}

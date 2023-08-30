@@ -1,0 +1,173 @@
+/* Default styles */
+/* Add your default styles here */
+
+/* Media query for screens with a minimum width of 1920px */
+@media (min-width: 1080px) {
+  .container {
+    width: 100%;
+  }
+  .courthouseimage {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../public/automobileaccidentaward.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header-text {
+    color: black;
+    font-family: "Roboto, sans-serif";
+    font-size: 50px;
+    margin: 15px;
+  }
+  .subheadertext {
+    color: black;
+    font-family: "Roboto, sans-serif";
+    font-size: 50px;
+    margin: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .case-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .WhatsApp-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .schedule-consulatation-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .imagecontainer {
+    display: flex;
+
+    padding: 50px;
+    background-color: darkblue;
+    width: 95%;
+  }
+
+  .imgone {
+    width: 200px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color: black;
+    margin-right: 200px;
+  }
+
+  .imgtwo {
+    width: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    background-color: black;
+  }
+  .imgthree {
+    width: 200px;
+
+    padding: 30px;
+    background-color: black;
+  }
+
+  .text-case {
+    align-content: center;
+    font-size: medium;
+  }
+  .texts-WhatsApp {
+    align-content: center;
+    font-size: medium;
+  }
+
+  
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 100%;
+  }
+  .courthouseimage {
+    width: 100%;
+    height: 80%;
+    background-image: url("../public/automobileaccidentaward.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header-text {
+    color: black;
+
+    margin-left: -400px;
+  }
+  .subheadertext {
+    color: black;
+    font-family: "Roboto, sans-serif";
+    font-size: 50px;
+    margin-left: -400px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 50vh;
+  }
+  .schedule-consulatation-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .case-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .WhatsApp-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+  .schedule-consulatation-buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+  }
+
+  .imagecontainer {
+    width: 100%;
+  }
+ 
+
+ 
+
+  .text-consultation {
+    align-self: center;
+    font-size: medium;
+  }
+  .text-case {
+    align-content: center;
+    font-size: medium;
+  }
+  .texts-WhatsApp {
+    align-content: center;
+    font-size: medium;
+  }
+  
+  
+}
